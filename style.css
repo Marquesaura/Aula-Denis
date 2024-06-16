@@ -5,24 +5,24 @@
     padding: 0;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #E4363B;
 }
 header{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #E4363B;
 }
-
 .logo{
     margin: 10px;
     height: 171px;  
 }
 footer{
     background-color: #E4363B;
-    height: 141px;
+    height: 100px;
     text-align: center;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 80px;
+    color: black;
 }
 .imagem{
     width: 508px;
@@ -31,11 +31,15 @@ footer{
 }
 .missao{
     font-size: 20px;
-    margin: 30px;
+    margin: 20px;
     text-align: justify;
+    padding: -20px;
 }
 .missao p{
     margin: 20px 0;
+}
+ul{
+    background-color: aliceblue;
 }
 ul li{
     display: inline-block;
@@ -46,12 +50,52 @@ ul li{
 	padding: 30px 20px;
 	box-sizing: border-box;
 	border-radius: 10px;
+    
 }
 .botao_login {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     color: #E4363B;
     background-color: black;
     border-radius: 10px;
-    margin: 5px; 
+    margin:  35px 1000px; 
+    padding: 8px;
+    position: relative;
+	width: 940px;
+}
+.cad_principal{
+    background-color: aliceblue;
+    display: inline-block;
+    text-align: center;
+	width: 30%;
+	vertical-align: top;
+	padding: 40px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+    margin: 150px 430px;
+}
+.cad_principal main{
+    font-size: 23px;
+}
+.cad_principal input{
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.cad_principal .salvar{
+    padding: 10px;
+    background-color: #E4363B;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.salvar:hover{
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #a52226;
+    transition: 0.5s;
+}
+.cad_principal p {
+    color: gray;
+    margin-top: 20px;
+    font-size: 11px;
 }
